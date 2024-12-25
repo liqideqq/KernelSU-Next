@@ -43,7 +43,7 @@ setup_kernelsu() {
     cd "$GKI_ROOT/KernelSU-Next"
     git stash && echo "[-] Stashed current changes."
     if [ "$(git status | grep -Po 'v\d+(\.\d+)*' | head -n1)" ]; then
-        git checkout susfs-next-a14-6.1 && echo "[-] Switched to susfs-next-a14-6.1 branch."
+        git checkout next-susfs-a14-6.1 && echo "[-] Switched to next-susfs-a14-6.1 branch."
     fi
     git pull && echo "[+] Repository updated."
     if [ -z "${1-}" ]; then
