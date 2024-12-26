@@ -11,7 +11,7 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import com.rifsxd.ksunext.ui.util.listModules
-import com.rifsxd.ksunext.ui.util.overlayFsAvailable
+// import com.rifsxd.ksunext.ui.util.overlayFsAvailable
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -44,8 +44,8 @@ class ModuleViewModel : ViewModel() {
         val changelog: String,
     )
 
-    var isOverlayAvailable by mutableStateOf(overlayFsAvailable())
-        private set
+    // var isOverlayAvailable by mutableStateOf(overlayFsAvailable())
+    //     private set
 
     var isRefreshing by mutableStateOf(false)
         private set
@@ -79,7 +79,7 @@ class ModuleViewModel : ViewModel() {
             val start = SystemClock.elapsedRealtime()
 
             kotlin.runCatching {
-                isOverlayAvailable = overlayFsAvailable()
+                // isOverlayAvailable = overlayFsAvailable()
                 
                 val result = listModules()
 

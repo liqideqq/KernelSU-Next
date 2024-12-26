@@ -1,14 +1,14 @@
 name: Build Kernel - Android 14
 on:
   push:
-    branches: [ "next" ]
+    branches: [ "magic" ]
     paths:
       - ".github/workflows/build-kernel-a14.yml"
       - ".github/workflows/gki-kernel.yml"
       - ".github/scripts/build_a13.sh"
       - "kernel/**"
   pull_request:
-    branches: [ "next" ]
+    branches: [ "magic" ]
     paths:
       - ".github/workflows/build-kernel-a14.yml"
       - ".github/workflows/gki-kernel.yml"

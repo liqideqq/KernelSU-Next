@@ -97,7 +97,7 @@ fun HomeScreen(navigator: DestinationsNavigator) {
             if (checkUpdate) {
                 UpdateCard()
             }
-            //NextCard()
+            NextCard()
             InfoCard()
             IssueReportCard()
             //EXperimentalCard()
@@ -399,7 +399,7 @@ private fun InfoCard() {
             val managerVersion = getManagerVersion(context)
             InfoCardItem(
                 label = stringResource(R.string.home_manager_version),
-                content = "${managerVersion.first}-next (${managerVersion.second})",
+                content = "${managerVersion.first}-next-magic (${managerVersion.second})",
                 icon = painterResource(R.drawable.ic_ksu_next),
             )
 

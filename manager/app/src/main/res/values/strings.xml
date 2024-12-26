@@ -66,9 +66,9 @@
     <string name="safe_mode">Safe mode</string>
     <string name="reboot_to_apply">Reboot to take effect</string>
     <string name="module_magisk_conflict">Modules are unavailable due to a conflict with Magisk!</string>
-    <string name="home_next_kernelsu">🔥 Next Build</string>
-    <string name="home_next_kernelsu_repo">https://github.com/rifsxd/KernelSU-Next</string>
-    <string name="home_next_kernelsu_body">Next experimental branch. Check it out on GitHub!</string>
+    <string name="home_next_kernelsu">🪄 Next Magic Build</string>
+    <string name="home_next_kernelsu_repo">https://github.com/rifsxd/KernelSU-Next/tree/magic</string>
+    <string name="home_next_kernelsu_body">Next magic branch. Check it out on GitHub!</string>
     <string name="home_experimental_kernelsu">⚠️ Experimental Development Warning!</string>
     <string name="home_experimental_kernelsu_repo">127.0.0.1</string>
     <string name="home_experimental_kernelsu_body">Next is a non-official build which is always under active experimental development. It is provided as-is, with no guarantees of stability, performance, or reliability.</string>

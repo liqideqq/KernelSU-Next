@@ -489,19 +489,19 @@ private fun ModuleList(
             },
         ) {
             when {
-                !viewModel.isOverlayAvailable -> {
-                    item {
-                        Box(
-                            modifier = Modifier.fillParentMaxSize(),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Text(
-                                stringResource(R.string.module_overlay_fs_not_available),
-                                textAlign = TextAlign.Center
-                            )
-                        }
-                    }
-                }
+                // !viewModel.isOverlayAvailable -> {
+                //     item {
+                //         Box(
+                //             modifier = Modifier.fillParentMaxSize(),
+                //             contentAlignment = Alignment.Center
+                //         ) {
+                //             Text(
+                //                 stringResource(R.string.module_overlay_fs_not_available),
+                //                 textAlign = TextAlign.Center
+                //             )
+                //         }
+                //     }
+                // }
 
                 viewModel.moduleList.isEmpty() -> {
                     item {
